@@ -1,0 +1,87 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+img {
+    display: block;
+    border-radius: 25px;
+}
+body {
+    min-height: 100vh;
+    font-family: 'Red Hat Display', sans-serif;
+    font-size: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: url("./images/pattern-background-desktop.svg") no-repeat hsl(225, 100%, 94%);
+}
+.main {
+    background-color: white;
+    width: 350px;
+    min-width: 350px;
+    text-align: center;
+    border-radius: 25px;
+    box-shadow: 0px 17px 35px -16px hsl(225, 100%, 94%);
+}
+.hero {
+    width: 100%;
+    height: auto;
+}
+.oder {
+    font-size: 1.5rem;
+    margin: 2rem 0 1.5rem 0;
+}
+.para {
+    line-height: 1.5;
+    color: hsl(224, 23%, 55%);
+    padding: 0 3.3rem;
+    margin-bottom: 1rem;
+}
+.play {
+    display: flex;
+    justify-content: space-between;
+    background-color: hsl(225, 100%, 98%);
+    margin: 0 1.5rem 1rem;
+    align-items: center;
+    border-radius: 1rem;
+}
+.playplay {
+    display: flex;
+}
+.plan {
+    margin-left: 1.5rem;
+}
+.plan h2 {
+    font-size: 1rem;
+    font-weight: bolder;
+}
+.plan p {
+    color: hsl(224, 23%, 55%);
+}
+.play a {
+    color: hsl(245, 75%, 52%);
+}
+button {
+    width: 80%;
+    margin: 1rem;
+    padding: 0.8rem;
+    background-color: hsl(245, 75%, 52%);
+    color: hsl(225, 100%, 98%);
+    font-weight: 900;
+    border: none;
+    border-radius: 0.6rem;
+    box-shadow: 0px 4px 10px 0px hsl(245, 75%, 52%);
+}
+.cancel {
+    margin: 0.5rem auto 2rem;
+    color: hsl(224, 23%, 55%);
+    font-weight: 900;
+    font-size: 0.8rem;
+}
+button:hover {
+    cursor: pointer;
+    opacity: 0.7;
+}
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }
